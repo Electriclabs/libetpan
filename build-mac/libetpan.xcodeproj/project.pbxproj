@@ -12,6 +12,7 @@
 		365DFFDB15D1CF6D00F2DD85 /* xgmmsgid.h in Headers */ = {isa = PBXBuildFile; fileRef = 365DFFDA15D1CF6D00F2DD85 /* xgmmsgid.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		365DFFDF15D1F2F800F2DD85 /* mailstream_cfstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 365DFFDE15D1F2F800F2DD85 /* mailstream_cfstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		365DFFE515D1F3CD00F2DD85 /* xgmlabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 365DFFE415D1F3CD00F2DD85 /* xgmlabels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD33ED0015FF3D3400BF56F8 /* Cyrus SASL.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = AD33ECFF15FF3D3400BF56F8 /* Cyrus SASL.xcodeproj */; };
 		C6451AFE1083D316003135FD /* mailimf_write.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F9EA32105335BC0059C3BA /* mailimf_write.h */; };
 		C6451AFF1083D316003135FD /* mhdriver_cached.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F9E913105335BC0059C3BA /* mhdriver_cached.h */; };
 		C6451B001083D316003135FD /* mhdriver_types.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F9E91A105335BC0059C3BA /* mhdriver_types.h */; };
@@ -839,6 +840,23 @@
 		C6F9EDBE105339EA0059C3BA /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F9EDBD105339EA0059C3BA /* libcrypto.dylib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AD00608915FF3D42000B8FDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD33ECFF15FF3D3400BF56F8 /* Cyrus SASL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = sasl2;
+		};
+		AD00608C15FF3D4F000B8FDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD33ECFF15FF3D3400BF56F8 /* Cyrus SASL.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = sasl2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		C682E21915B315EF00BE9DA7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -866,14 +884,15 @@
 		365DFFD115D1C93100F2DD85 /* xgmmsgid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xgmmsgid.c; sourceTree = "<group>"; };
 		365DFFD815D1CF1800F2DD85 /* xgmmsgid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xgmmsgid.h; sourceTree = "<group>"; };
 		365DFFDA15D1CF6D00F2DD85 /* xgmmsgid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xgmmsgid.h; sourceTree = "<group>"; };
-		365DFFDE15D1F2F800F2DD85 /* mailstream_cfstream.h */ = {isa = PBXFileReference; lastKnownFileType = file; name = mailstream_cfstream.h; path = include/libetpan/mailstream_cfstream.h; sourceTree = "<group>"; };
-		365DFFE015D1F35800F2DD85 /* quota.h */ = {isa = PBXFileReference; lastKnownFileType = file; name = quota.h; path = include/libetpan/quota.h; sourceTree = "<group>"; };
-		365DFFE115D1F37C00F2DD85 /* quota_types.h */ = {isa = PBXFileReference; lastKnownFileType = file; name = quota_types.h; path = include/libetpan/quota_types.h; sourceTree = "<group>"; };
-		365DFFE215D1F3A300F2DD85 /* namespace_types.h */ = {isa = PBXFileReference; lastKnownFileType = file; name = namespace_types.h; path = include/libetpan/namespace_types.h; sourceTree = "<group>"; };
-		365DFFE315D1F3A300F2DD85 /* namespace.h */ = {isa = PBXFileReference; lastKnownFileType = file; name = namespace.h; path = include/libetpan/namespace.h; sourceTree = "<group>"; };
-		365DFFE415D1F3CD00F2DD85 /* xgmlabels.h */ = {isa = PBXFileReference; lastKnownFileType = file; name = xgmlabels.h; path = include/libetpan/xgmlabels.h; sourceTree = "<group>"; };
+		365DFFDE15D1F2F800F2DD85 /* mailstream_cfstream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mailstream_cfstream.h; path = include/libetpan/mailstream_cfstream.h; sourceTree = "<group>"; };
+		365DFFE015D1F35800F2DD85 /* quota.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = quota.h; path = include/libetpan/quota.h; sourceTree = "<group>"; };
+		365DFFE115D1F37C00F2DD85 /* quota_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = quota_types.h; path = include/libetpan/quota_types.h; sourceTree = "<group>"; };
+		365DFFE215D1F3A300F2DD85 /* namespace_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = namespace_types.h; path = include/libetpan/namespace_types.h; sourceTree = "<group>"; };
+		365DFFE315D1F3A300F2DD85 /* namespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = namespace.h; path = include/libetpan/namespace.h; sourceTree = "<group>"; };
+		365DFFE415D1F3CD00F2DD85 /* xgmlabels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xgmlabels.h; path = include/libetpan/xgmlabels.h; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* libetpan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libetpan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD33ECFF15FF3D3400BF56F8 /* Cyrus SASL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Cyrus SASL.xcodeproj"; path = "../../iOSPorts/ports/security/cyrus-sasl/Cyrus SASL.xcodeproj"; sourceTree = "<group>"; };
 		C6516B69130DD667004ADD56 /* namespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = namespace.h; sourceTree = "<group>"; };
 		C65179E4130E84BD004ADD56 /* namespace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = namespace.c; sourceTree = "<group>"; };
 		C65179F0130E85CA004ADD56 /* namespace_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = namespace_parser.h; sourceTree = "<group>"; };
@@ -1429,6 +1448,7 @@
 		0867D691FE84028FC02AAC07 /* libetpan */ = {
 			isa = PBXGroup;
 			children = (
+				AD33ECFF15FF3D3400BF56F8 /* Cyrus SASL.xcodeproj */,
 				365DFFE415D1F3CD00F2DD85 /* xgmlabels.h */,
 				365DFFE215D1F3A300F2DD85 /* namespace_types.h */,
 				365DFFE315D1F3A300F2DD85 /* namespace.h */,
@@ -1477,6 +1497,14 @@
 				C69AAFB41054298E00F32FBD /* include */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		AD00608515FF3D42000B8FDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD00608A15FF3D42000B8FDE /* libsasl2.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C69AAFB41054298E00F32FBD /* include */ = {
@@ -2629,6 +2657,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				AD00608D15FF3D4F000B8FDE /* PBXTargetDependency */,
 			);
 			name = "libetpan ios";
 			productName = "static libetpan";
@@ -2670,6 +2699,12 @@
 			mainGroup = 0867D691FE84028FC02AAC07 /* libetpan */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AD00608515FF3D42000B8FDE /* Products */;
+					ProjectRef = AD33ECFF15FF3D3400BF56F8 /* Cyrus SASL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8DC2EF4F0486A6940098B216 /* libetpan */,
@@ -2679,11 +2714,22 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		AD00608A15FF3D42000B8FDE /* libsasl2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libsasl2.a;
+			remoteRef = AD00608915FF3D42000B8FDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8DC2EF520486A6940098B216 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD33ED0015FF3D3400BF56F8 /* Cyrus SASL.xcodeproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3210,6 +3256,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		AD00608D15FF3D4F000B8FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sasl2;
+			targetProxy = AD00608C15FF3D4F000B8FDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		1DEB91AE08733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3297,13 +3351,11 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/libsasl-ios/include",
+					"../../iOSPorts/include/**",
 				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/libsasl-ios/lib";
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-DLIBETPAN_IOS_DISABLE_SSL=1",
-				);
+				OTHER_CFLAGS = "$(inherited)";
 				PREBINDING = NO;
 				PRODUCT_NAME = "etpan-ios";
 				SDKROOT = iphoneos;
@@ -3321,13 +3373,11 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/libsasl-ios/include",
+					"../../iOSPorts/include/**",
 				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/libsasl-ios/lib";
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-DLIBETPAN_IOS_DISABLE_SSL=1",
-				);
+				OTHER_CFLAGS = "$(inherited)";
 				PREBINDING = NO;
 				PRODUCT_NAME = "etpan-ios";
 				SDKROOT = iphoneos;
