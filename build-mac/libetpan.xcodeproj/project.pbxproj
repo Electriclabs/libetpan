@@ -3363,6 +3363,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = "etpan-ios";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -3385,6 +3386,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = "etpan-ios";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
 			};
 			name = Release;
