@@ -13,6 +13,7 @@
 		365DFFDF15D1F2F800F2DD85 /* mailstream_cfstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 365DFFDE15D1F2F800F2DD85 /* mailstream_cfstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		365DFFE515D1F3CD00F2DD85 /* xgmlabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 365DFFE415D1F3CD00F2DD85 /* xgmlabels.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD33ED0015FF3D3400BF56F8 /* Cyrus SASL.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = AD33ECFF15FF3D3400BF56F8 /* Cyrus SASL.xcodeproj */; };
+		AD4E072815FF4F78007E3F3A /* xgmmsgid.c in Sources */ = {isa = PBXBuildFile; fileRef = 365DFFD115D1C93100F2DD85 /* xgmmsgid.c */; };
 		C6451AFE1083D316003135FD /* mailimf_write.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F9EA32105335BC0059C3BA /* mailimf_write.h */; };
 		C6451AFF1083D316003135FD /* mhdriver_cached.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F9E913105335BC0059C3BA /* mhdriver_cached.h */; };
 		C6451B001083D316003135FD /* mhdriver_types.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F9E91A105335BC0059C3BA /* mhdriver_types.h */; };
@@ -3084,6 +3085,7 @@
 				C682E2B915B315EF00BE9DA7 /* xlist.c in Sources */,
 				C682E2BA15B315EF00BE9DA7 /* mailstream_cfstream.c in Sources */,
 				C682E2BB15B315EF00BE9DA7 /* xgmlabels.c in Sources */,
+				AD4E072815FF4F78007E3F3A /* xgmmsgid.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
