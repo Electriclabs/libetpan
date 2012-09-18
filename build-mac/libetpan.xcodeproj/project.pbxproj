@@ -3358,6 +3358,7 @@
 					"../../iOSPorts/include/**",
 				);
 				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/libsasl-ios/lib";
 				OTHER_CFLAGS = "$(inherited)";
 				PREBINDING = NO;
@@ -3381,6 +3382,7 @@
 					"../../iOSPorts/include/**",
 				);
 				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/libsasl-ios/lib";
 				OTHER_CFLAGS = "$(inherited)";
 				PREBINDING = NO;
